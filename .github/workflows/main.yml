@@ -20,7 +20,7 @@ jobs:
       - name: Install pytest
         run: pip install pytest-cov
       - name: Run python tests
-        run: pytest --cov .
+        run: pytest --cov
       - name: Upload coverage reports to Codecov
         run: |
           curl -Os https://cli.codecov.io/latest/linux/codecov
