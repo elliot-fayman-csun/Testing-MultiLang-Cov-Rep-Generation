@@ -18,7 +18,7 @@ jobs:
           file: coverage.xml
           name: pythonTestWorkflow
       - name: Install pytest
-        run: run pip install pytest-cov
+        run: pip install pytest-cov
       - name: Run python tests
         run: pytest --cov .
       - name: Upload coverage reports to Codecov
