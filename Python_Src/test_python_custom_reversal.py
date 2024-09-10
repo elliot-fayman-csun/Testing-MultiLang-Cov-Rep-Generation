@@ -1,7 +1,7 @@
 #pytest
 #pytest-cov
 import pytest
-from custom_reversal import *
+from Python_Src.python_custom_reversal import *
 
 
 def test_reverse_text():
